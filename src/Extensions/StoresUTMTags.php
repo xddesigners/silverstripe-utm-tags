@@ -25,7 +25,7 @@ class StoresUTMTags extends DataExtension
     public function updateCMSFields(FieldList $fields)
     {
         $fields->removeByName(['UTMTags']);
-        if (!($utmList = $this->owner->getUTMTagsList()) || !$utmList->owner->exists()) {
+        if (!($utmList = $this->owner->getUTMTagsList()) || !$utmList->exists()) {
             return;
         }
 
