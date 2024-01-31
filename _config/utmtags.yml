@@ -1,0 +1,6 @@
+---
+name: utmtags
+---
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - XD\UTMTags\Extensions\ControllerExtension

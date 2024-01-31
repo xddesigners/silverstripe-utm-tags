@@ -1,0 +1,21 @@
+{
+  "name": "xddesigners/silverstripe-utm-tags",
+  "description": "Adds a method to handle UTM tags and store them in models",
+  "type": "silverstripe-vendormodule",
+  "keywords": ["silverstripe", "UTM", "tags"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Bram de Leeuw",
+      "email": "bram@xd.nl"
+    }
+  ],
+  "require": {
+    "silverstripe/cms": "^4 || ^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "XD\\UTMTags\\": "src"
+    }
+  }
+}
